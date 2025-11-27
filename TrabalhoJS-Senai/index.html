@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho JS</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="./image/dog.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+
+</style>
+<body>
+
+    <!-- PRIMEIRA SECTION -->
+    <header>
+        
+        <div id="imglogo">
+            <img src="./image/Gemini_Generated_Image_bc7kxpbc7kxpbc7k-removebg-preview.png" alt="LOGO" srcset="">
+
+        </div>
+
+        <div id="topo">
+            
+            <a class="home" href="#"> <i class="fa-regular fa-house"></i> Home</a>
+            <a class="home" href="#"><i class="fa-solid fa-circle-info"></i>Sobre</a>
+            <a class="home" href="#"><i class="fa-solid fa-bone"></i>Produtos</a>
+            <a class="home" href="#"><i class="fa-brands fa-whatsapp"></i></i>Contatos</a>
+        </div>
+
+    </header>
+
+
+    <!-- SEGUNDA SECTION FOTO -->
+    <section id="foto">
+        
+        <div id="txt-foto">
+        <h1> ADOTE <br> SEU NOVO <br> MELHOR </h1>  <br><br>
+        <h1 id="aumigo">AUMIGO!!</h1>
+        </div>
+
+
+    </section>
+
+
+    <!-- TERCEIRA SECTION BLOG-->
+     <section id="blog">
+        <h1 id="blog-title"> TODOS SÃO AS MELHORES OPÇÕES</h1>
+
+        <div id="all-cards">
+            <div class="holographic-container">
+                <div class="holographic-card">
+                     <h1 class="card-title">Golden</h1>
+                        <div class="img-card">
+                            <img src="./image/golden.png" alt="" srcset="">
+                        </div>
+                        <div class="container-dog">
+                        <P class="txt-apresentacao"><strong>Nome: Bob</strong> <br> Amigavel <br> Carinhoso <br> Gosta de Brincar</P>
+                        </div>
+                </div>
+            </div>
+
+
+            <div class="holographic-container">
+                <div class="holographic-card">
+                    <h1 class="card-title">Salsicha</h1>
+                        <div class="img-card">
+                            <img src="./image/salsicha.png" alt="" srcset="">
+                        </div>
+
+                        <div class="container-dog">
+                            <P class="txt-apresentacao"><strong>Nome: Thor</strong> <br> Arteiro <br> Alegre <br> Bobão </P>
+                        </div>
+                </div>
+            </div>
+
+
+            <div class="holographic-container">
+                <div class="holographic-card">
+                    <h1 class="card-title">Pinscher</h1>
+                        <div class="img-card">
+                            <img src="./image/pincher.png" alt="" srcset="">
+                        </div>
+
+                        <div class="container-dog">
+                              <P class="txt-apresentacao"><strong>Nome: Trovão</strong> <br> Gosta de crianças <br> Sociavel <br> Dorminhoco</P>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+
+     </section>
+
+
+     <!-- QUARTA SECTION FORM-->
+    <section id="form-container">
+
+        
+        <div id="info-contato">
+                <i class="fa-solid fa-phone"></i>
+                <p> +55 11 94002 8922</p> <br>
+
+                <i class="fa-solid fa-map-location"></i>
+                <p> 121, Rua 7 de maio - SP</p> <br>
+
+                <i class="fa-solid fa-clock"></i>
+                <P> Seg a Sex 8h as 20h <br> Sabado e Feriados 10h as 16h <br> Dom Fechado</P>
+            </div>
+        </div>
+
+
+        <div id="mini-form-container">
+            <div>
+                <form id="formulario" >
+                    <h1 class="txt-form"> Entre em contato</h1>
+                        <input class="txt-form" type="text" placeholder="Preencha o seu nome" required> <br>
+                        <input class="txt-form" type="emaildd" placeholder="Preencha seu email" required> <br>
+                        <input class="txt-form" type="text" placeholder="Comentário"  required> <br>
+                        <button id="btn" class="txt-form" type="submit">Enviar</button>
+                </form>
+            </div>
+
+        </div>        
+    </section>
+
+    <!-- FOOTER -->
+    <section id="footer">
+
+        <p> &#169 2025. Todos direitos reservados a <p></p>
+
+        <div id="nomes-footer">
+        <p> Development by:</p>
+        <p class="nomeees-footer"> <br> Boris Chertach <br> Guilherme Barros  </p>
+        <p class="nomeees-footer"> </p> <br> Estevan Lopes <br> Rafael Cardozo</p>
+
+        </div>
+    
+
+
+
+    </section>
+
+
+
+    <script>
+        
+
+        let formulario = document.getElementById('formulario')
+
+        formulario.addEventListener('submit', function(e){
+             e.preventDefault() 
+            window.alert("Formulario enviado com sucesso!!")
+    
+    
+    formulario.reset() 
+})
+            
+      
+
+
+    </script>
+</body>
+</html>

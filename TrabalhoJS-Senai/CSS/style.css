@@ -1,0 +1,49 @@
+   @import url(/CSS/carrosel-S3.css);
+    @import url(/CSS/footer-S5.css);
+    @import url(/CSS/formulario-S4.css);
+    @import url(/CSS/foto-S2.css);
+    @import url(/CSS/header-S1.css);
+    
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+  
+  :root{
+        --cor-primeiraria: #FFE135;
+        --cor-secundaria: #5e2129;
+    }
+
+   
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+       
+    }
+
+    
+
+   
+
+    
+      
+    #footer{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    #nomes-footer{
+        display: flex;
+        margin: 10px;
+        gap: 30px;
+        
+    }
+
+    .nomeees-footer{
+        padding-bottom: 30px;
+    }
+
+
